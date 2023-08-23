@@ -3,9 +3,9 @@ source 'https://rubygems.org'
 ruby '~>2.6.3'
 
 gem 'accesslint-ci', '0.2.8'
-gem 'html-proofer', '~> 3.6.0'
+gem 'html-proofer', '~> 3.12.0'
 gem 'jekyll', '~> 3.9'
-gem 'jemoji', '>= 0.11.1'
+gem 'jemoji', '>= 0.13.0'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
 
