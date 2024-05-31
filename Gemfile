@@ -3,9 +3,9 @@ source 'https://rubygems.org'
 ruby '~>2.6.3'
 
 gem 'accesslint-ci', '0.2.8'
-gem 'html-proofer', '~> 3.6.0'
+gem 'html-proofer', '~> 3.7.0'
 gem 'jekyll', '~> 3.9'
-gem 'jemoji', '>= 0.11.1'
+gem 'jemoji', '>= 0.13.0'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
 
@@ -23,7 +23,7 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem 'capybara', '>= 3.29.0'
+  gem 'capybara', '>= 3.34.0'
   gem 'chromedriver-helper', '>= 2.1.1'
   gem 'colorize'
   gem 'pry'
