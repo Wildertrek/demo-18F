@@ -4,21 +4,21 @@ ruby '~>2.6.3'
 
 gem 'accesslint-ci', '0.2.8'
 gem 'html-proofer', '~> 3.6.0'
-gem 'jekyll', '~> 3.9'
-gem 'jemoji', '>= 0.11.1'
+gem 'jekyll', '~> 3.9', '>= 3.9.1'
+gem 'jemoji', '>= 0.13.0'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', git: 'https://github.com/jekyll/jekyll-archives.git', ref: '112c508'
-  gem 'jekyll-feed'
+  gem 'jekyll-feed', '>= 0.15.1'
   gem 'jekyll_frontmatter_tests', '~> 0.1.0'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
-  gem 'jekyll-seo-tag'
+  gem 'jekyll-seo-tag', '>= 2.7.0'
   gem 'jekyll-sitemap'
   gem 'jekyll_pages_api'
-  gem 'jekyll_pages_api_search', '~> 0.4.5'
+  gem 'jekyll_pages_api_search', '~> 0.5.0'
   gem 'jekyll_oembed'
 end
 
