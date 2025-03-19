@@ -27,7 +27,7 @@ group :development do
   gem 'chromedriver-helper', '>= 2.1.1'
   gem 'colorize'
   gem 'pry'
-  gem 'rack', '>=2.1.4'
+  gem 'rack', '>= 2.2.13'
   gem 'rack-jekyll', git: 'https://github.com/adaoraul/rack-jekyll', ref: 'a997bd0'
   gem 'rb-readline'
   gem 'rspec'
